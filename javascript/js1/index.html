@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./app1.js" defer></script>
+    <style type="text/css">
+    h2{
+        text-align: center;
+        text-decoration-color: black;
+        font-weight: bold;
+    }
+    div{
+        text-align: center;
+    }
+    </style>
+</head>
+<body>
+    <form action="app.js"  method ="Post">
+		<div>
+			<label>Validate Duplicate Event</label>
+			<input type ="text" id="text1" name="name">
+		</div>
+		<div>
+            <input type="button" id="button1" name="Addevent" value ="Add" onclick="addEvent()">
+            
+        </div>
+        
+		<div>
+			<input type="button" id="button2" name="Displayevent" value="Display" onclick="displayEvent()">
+		</div>
+		<div id="result"></div>
+
+</body>
+</html>
